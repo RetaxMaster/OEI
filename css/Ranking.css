@@ -1,0 +1,47 @@
+
+
+.main{
+  padding: 20px;
+}
+
+table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+table td {
+  border: 1px solid #e00000;
+}
+
+/*  Modal  */
+
+.vmodal input[type="text"], .vmodal input[type="button"] {
+  width: 100%;
+}
+
+.vmodal .contenido {
+  margin-top: 5%;
+}
+
+.vmodal input[type="button"]{
+  background: #174ef4;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 1%;
+  margin-top: 5px;
+}
+
+.vmodal input[type="button"]:hover{
+  background: #2c5ff6;
+}
+
+table p{
+  margin: 0;
+}
+
+#cerrar{
+  cursor: pointer;
+}

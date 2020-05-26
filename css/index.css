@@ -1,0 +1,163 @@
+/*  Imagen Header  */
+.encabezado {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+.encabezado img {
+  width: 100%;
+  height: 250px;
+}
+/*  ->Imagen Header  */
+
+#publicacion .publicacion textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+#publicacion .publicacion button {
+  background: #174ef4;;
+  color: #fff;
+  padding: 5px 10px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.vmodal .contenido {
+  margin-top: 10%;
+}
+
+.vmodal input[type="button"], .vmodal .AdminButton, input[type="submit"]{
+  background: #174ef4;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 1%;
+  width: 100%;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.vmodal input[type="button"]:hover, .vmodal .AdminButton:hover, input[type="submit"]:hover{
+  background: #2c5ff6;
+}
+
+.vmodal input[type="button"]:active, .vmodal .AdminButton:active, input[type="sumbit"]:active{
+  box-shadow: none;
+}
+
+.vmodal input[type="text"]{
+  width: 100%;
+}
+
+.vmodal #cerrar{
+  cursor: pointer;
+}
+
+input[type="file"]{
+  display: inline-block;
+  width: 50%;
+}
+
+#registro {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+}
+
+.articulo {
+  overflow: hidden;
+}
+
+.articulo, .articulo .header {
+  overflow: hidden;
+}
+
+.EliminarPub {
+  cursor: pointer;
+}
+
+.header .fecha, .header .cerrar {
+  display: inline-block;
+  width: 50%;
+}
+
+.header .fecha{
+  float: left;
+  color: #bbbbbb;
+  font-style: italic;
+}
+
+.image {
+  width: 100%;
+  display: inline-block;
+}
+
+.imagen {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#main .imagen img{
+  display: block;
+  margin: auto;
+  max-width: 75%;
+  max-height: 700px;
+  cursor: pointer;
+}
+
+#ImagenGrande .contenido{
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 80%;
+  background: #000;
+}
+
+#ImagenGrande .contenido img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#cerrarImg{
+  font-size: 2.5em;
+  margin-right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sede h4{
+  margin: 0;
+  text-align: center;
+}
+
+.sede input{
+  width: 100%;
+}
+
+/*  Notificaciones  */
+
+#Titulo {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+#Nots{
+  display: none;
+}
+
+.Nots h4, .Nots p, .Nots a{
+  margin: 0;
+  text-align: center;
+  color: #000;
+}
+
+.notfContenedor{
+  display: inline-block;
+  width: 100%;
+}

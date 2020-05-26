@@ -1,0 +1,37 @@
+#imagen {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 300px;
+}
+
+.main{
+  padding: 40px;
+}
+
+.profesiograma {
+  overflow: hidden;
+}
+
+.enlace:hover{
+  background: #f6f6f6;
+  cursor: pointer;
+}
+
+.enlace, .enlace p {
+  margin: 0;
+  text-align: center;
+}
+
+.miUl li ul li {
+  list-style: circle;
+  margin-left: 5%;
+}
+
+@media (max-width: 500px){
+  .miUl li ul li {
+    margin-left: 15%;
+  }
+}

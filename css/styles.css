@@ -1,0 +1,502 @@
+/* Estilos Generales */
+
+/*  Tamaños del nav  */
+
+/*  col-xs  */
+@media (max-width: 500px){
+  nav {
+    width: 100%;
+  }
+}
+
+/*  col-md  */
+@media (min-width: 500px) and (max-width: 875px) {
+  nav {
+    width: 45%;
+  }
+}
+
+/*  col-md en adelante  */
+@media (min-width: 875px) and (max-width: 1080px){
+  nav {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1080px){
+  nav {
+    width: 24%;
+  }
+}
+
+/*  ->Tamaños del nav  */
+
+@media (max-width: 400px){
+  table td{
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 300px){
+  table td{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 230px){
+  table td{
+    font-size: 0.8rem;
+  }
+}
+
+/*  Boton Agregar  */
+body, .container-fluid {
+  height: 100%;
+}
+
+.agregar {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  z-index: 1000;
+}
+
+button {
+  color: #fff;
+  background: #174ef4;
+  border-radius: 5px;
+  padding: 10px 15px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+/*  ->Boton Agregar  */
+
+html{
+  height: 100%;
+}
+
+button:hover{
+  background: #0038e2;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+body{
+  background: #f4f4f4;
+}
+
+label {
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+}
+
+ol li {
+  list-style: decimal;
+}
+
+.miUl {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.miUl li {
+  list-style: disc;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  margin: 0;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: none;
+}
+
+#main {
+  padding: 0 1%;
+}
+
+button {
+  border: none;
+  outline: none;
+  z-index: 4900;
+}
+
+#AudioNotificacion{
+  display: none;
+}
+
+.contenedores{
+  margin: 10px 0;
+  background: #fff;
+  padding: 10px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+#VentanaEspera {
+  z-index: 10000;
+}
+
+#VentanaEspera h4 {
+  text-align: center;
+}
+
+#VentanaEspera img {
+  display: block;
+  margin: auto;
+}
+
+.main{
+  padding: 20px;
+}
+
+.inputError{
+  border: 2px solid #ff0000;
+  outline: none;
+}
+
+/* ->Estilos Generales */
+
+/* Modal */
+.vmodal, .vmodalL, .vmodalButtonPlus, .vmodalSure {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 6000;
+  overflow-y: scroll;
+}
+
+.vmodal .contenido, .vmodalButtonPlus .contenido, .vmodalSure .contenido{
+  padding: 20px;
+}
+
+/*  Modal Sure  */
+.vmodal .contenido h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.vmodal .contenido .botones {
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.vmodal .contenido .botones .btn1, .vmodal .contenido .botones .btn2 {
+  display: inline-block;
+  width: 50%;
+}
+
+.vmodal .contenido .botones .btn1{
+  text-align: right;
+}
+
+.vmodal .contenido .botones button{
+  color: #fff;
+  background: #ff5252;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 5px 20px;
+}
+
+.vmodal .contenido .botones #si{
+  margin-right: 20px;
+}
+
+.vmodal .contenido .botones #no{
+  margin-left: 20px;
+}
+
+.vmodal .contenido .botones .btn2{
+  text-align: left;
+}
+
+.vmodal .contenido .botones .btn1{
+  float: left;
+}
+/*  ->Modal Sure  */
+/* ->Modal */
+
+/* Menú de Navegación  */
+nav{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 5000;
+  background: #fff;
+  max-height: 100%;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.9);
+}
+
+#nav {
+  padding: 1% 0;
+  color: #616161;
+}
+
+#nav hr {
+  margin-top: 2%;
+  border-color: #d9d9d9;
+}
+
+.element {
+  color: #616161;
+  padding: 2% 4%;
+  /*border-top: solid 1px #000;*/
+}
+
+.element:hover {
+  background: #174ef4;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header-nav {
+  width: 100%;
+  padding: 0 4% 0 4%;
+}
+
+.header-nav h2{
+  /*color: #174ef4;*/
+  font-weight: bolder;
+}
+
+.header-nav h2, .header-nav .contenedor {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+}
+
+.header-nav span {
+  margin-top: 2%;
+  font-size: 1.5em;
+  padding-right: 7px;
+  cursor: pointer;
+}
+
+.header-nav span:hover {
+  color: #838383;
+}
+
+/*  Botón  */
+.boton button {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  background: #174ef4;;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.boton button:hover {
+  background: #2558f1;;
+}
+
+.boton button:active {
+  box-shadow: none;
+}
+/*  -> Botón  */
+
+/* -> Menú de Navegación  */
+
+/*  modalLoginOrRegister  */
+
+/*  Generales  */
+#LoginOrRegister input[type="text"], #LoginOrRegister input[type="email"], #LoginOrRegister input[type="password"],
+#LoginOrRegister input[type="date"],
+#LoginOrRegister input[type="submit"] {
+  width: 100%;
+}
+
+#LoginOrRegister input[type="submit"] {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  background: #0074fb;
+  color: #fff;
+  padding: 2%;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+/*  ->Generales  */
+
+/*  Botones Login/Register  */
+#LoginOrRegister #cerrarL {
+  cursor: pointer;
+}
+
+#LoginOrRegister .contenido, #LoginOrRegister .contenido .mainL {
+  padding: 10px;
+}
+
+#LoginOrRegister .LoginAndRegister{
+  width: 100%;
+  overflow: hidden;
+}
+
+#LoginOrRegister .LoginAndRegister .Login, #LoginOrRegister .LoginAndRegister .Register{
+  display: inline-block;
+  width: 50%;
+  overflow: hidden;
+}
+
+#LoginOrRegister .LoginAndRegister .Login {
+  float: left;
+}
+
+#LoginOrRegister .LoginAndRegister .Login button {
+  float: right;
+}
+
+#LoginOrRegister .LoginAndRegister .Register button {
+  float: left;
+}
+
+#LoginOrRegister .LoginAndRegister .boton{
+  background: #fff;
+  color: #dddddd;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1.5rem;
+  padding: 8px 10%;;
+}
+
+#LoginOrRegister .LoginAndRegister .boton.active{
+  border-bottom: 3px solid #0057ff;
+}
+/*  ->Botones Login/Register  */
+
+/*  formRegister  */
+
+.formRegister .sexo, .formRegister .semestre, .formRegister .especialidad {
+  overflow: hidden;
+  width: 100%;
+}
+
+.formRegister .sexo input[type="radio"], .formRegister .semestre input[type="radio"], .formRegister .especialidad input[type="radio"]{
+  display: inline-block;
+  margin: 0;
+}
+
+.formRegister .semestre p {
+  color: #c3bfbf;
+  font-size: 0.8em;
+}
+
+.formRegister .radios{
+  float: left;
+  margin: 0 5px;
+}
+
+/*  ->modalLoginOrRegister  */
+
+.nopubs h3{
+  text-align: center;
+  margin: 0;
+  color: #aaaaaa
+}
+
+/*  Notificaciones  */
+.Notificaciones {
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 5000;
+  overflow: hidden;
+}
+
+.notificacion {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  background: #fff;
+  padding: 10px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.hrefNotf{
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.hrefNotf, .hrefNotf:hover, .hrefNotf:focus{
+  color: #000;
+}
+
+.notificacion p, .notificacion h4 {
+  margin: 0;
+}
+
+.notificacion span {
+  display: inline-block;
+  cursor: pointer;
+}
+
+@media (max-width: 500px){
+  .Notificaciones {
+  width: 98%;
+  margin: 0 1%;
+  }
+}
+
+/*  col-md  */
+@media (min-width: 500px) and (max-width: 875px) {
+  .Notificaciones {
+    width: 45%;
+    margin-left: 7px;
+  }
+}
+
+/*  col-md en adelante  */
+@media (min-width: 875px) and (max-width: 1080px){
+  .Notificaciones {
+    width: 35%;
+    margin-left: 7px;
+  }
+}
+
+@media (min-width: 1080px){
+  .Notificaciones {
+    width: 25%;
+    margin-left: 7px;
+  }
+}
+/*  ->Notificaciones  */
+#Paginacion {
+  text-align: center;
+  cursor: pointer;
+}
+
+#Paginacion:hover {
+  background: #f1f0f0;
+}
+
+#Paginacion span {
+  font-size: 18px;
+}

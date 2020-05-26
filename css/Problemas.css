@@ -1,0 +1,94 @@
+.main{
+  padding: 25px;
+}
+
+.problema {
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.problema:hover {
+  background: #f7f7f7;
+}
+
+.problema a{
+  display: inline-block;
+  color: #000;
+  padding: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.problema .headerProb {
+  overflow: hidden;
+  margin: 5px 0;
+}
+
+.problema .headerProb .eliminar{
+  display: inline-block;
+  width: 10%;
+}
+
+.problema .headerProb .eliminar span {
+  margin-right: 2%;
+}
+
+.problema .headerProb h4 {
+  display: inline-block;
+  width: 90%;
+  float: left;
+  margin: 0;
+}
+
+.problema .headerProb .contenido {
+  clear: both;
+}
+
+.lenguajes{
+  font-style: italic;
+  color: #adadad;
+  font-size: 0.8em;
+}
+
+.vmodal .contenido, .vmodalButtonPlus .contenido{
+  margin-top: 15%;
+  overflow: hidden;
+}
+
+.vmodalButtonPlus .contenido{
+  padding-top: 15px;
+}
+
+.vmodalButtonPlus .contenido input{
+  width: 100%;
+}
+
+.vmodalButtonPlus .contenido textarea{
+  resize: none;
+  width: 100%;
+  height: 100px;
+}
+
+.vmodalButtonPlus .contenido .closeP{
+  display: inline-block;
+  cursor: pointer;
+}
+
+.vmodalButtonPlus .contenido .mainP{
+  clear: both;
+  overflow: hidden;
+}
+
+input[type="button"]{
+  background: #174ef4;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 1%;
+}
+
+input[type="button"]:hover{
+  background: #2c5ff6;
+}

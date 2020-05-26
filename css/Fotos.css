@@ -1,0 +1,78 @@
+.main {
+  padding: 20px;
+}
+
+.foto {
+  height: 250px;
+  overflow: hidden;
+}
+
+.foto img{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  max-width: 94%;
+  max-height: 94%;
+  border: 2px solid #000;
+  padding: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.vmodal .contenido {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 0;
+  padding: 0;
+  height: 80%;
+  background: #000;
+}
+
+.vmodal .contenido:hover > .flechas {
+  display: block;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#cerrar{
+  font-size: 2em;
+  color: #bdbdbd;
+  position: fixed;
+  right: 30px;
+  top: 15px;
+  cursor: pointer;
+  z-index: 7000;
+}
+
+.flechas {
+  display: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3em;
+  cursor: pointer;
+  z-index: 7000;
+}
+
+.flechas:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#Anterior{
+  left: 15px;
+}
+
+#Siguiente{
+  right: 15px;
+}
+
+.vmodal .contenido img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 100%;
+  max-height: 100%;
+}
+/*  ->Tamaños del nav  */

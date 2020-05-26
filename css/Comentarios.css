@@ -1,0 +1,108 @@
+.NuevoComent{
+  overflow: hidden;
+}
+
+.presentacion h3{
+  margin: 0;
+}
+
+.presentacion a {
+  color: #005de9;
+  font-weight: bold;
+}
+
+#Comentarios {
+  resize: none;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+
+.eliminar{
+  right: 4px;
+}
+
+.Fecha, .elim{
+  display: inline-block;
+}
+
+.comentario{
+  overflow: hidden;
+}
+
+.comentario .Fecha h5{
+  margin: 0;
+  color: #d4d5d4;
+  font-style: italic;
+}
+
+.Fecha{
+  width: 70%;
+  float: left;
+}
+
+.elim{
+  width: 30%;
+}
+
+.elim span{
+  cursor: pointer;
+}
+
+.coment{
+  clear: both;
+}
+
+input[type="button"]{
+  background: #174ef4;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px;
+  -webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+input[type="button"]:hover{
+  background: #2c5ff6;
+}
+
+.input[type="button"]:active{
+  box-shadow: none;
+}
+
+.imagen{
+  padding: 0;
+}
+
+.main .imagen img {
+  display: block;
+  margin: auto;
+  max-width: 75%;
+  max-height: 700px;
+  cursor: pointer;
+}
+
+#ModalFotos .contenido {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0;
+  height: 80%;
+  background: #000;
+}
+
+#ModalFotos .contenido img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#cerrarImg {
+  font-size: 2.5em;
+  margin-right: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+}
